@@ -23,8 +23,7 @@ def divisors(integer):
     if len(factors) != 0:
         return factors
 
-    else:
-        return f"{integer} is prime"
+    return f"{integer} is prime"
 
 print(divisors(input("Enter a number: ")))
 
