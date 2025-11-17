@@ -13,10 +13,9 @@ def getInput(inp):
 def divisors(integer):
 
     integer = getInput(integer)
-    print(integer)
     factors = []
 
-    for number in range(2, integer):
+    for number in range(2, integer//2 + 1):
         if integer % number == 0:
             factors.append(number)
 
